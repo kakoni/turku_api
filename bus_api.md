@@ -18,15 +18,15 @@ Name | Type | Description
 -----|------|--------------
 `changeMargin`|`integer` | The minimum number of minutes between changes. Default 3, range 0-10.
 `walkSpeed`|`integer` | Walking speed, Optional, default 70 m/min, range 1-500.
-`maxTotWalkDist`|`string` | **Required**. Foo
-`timeDirection`|`string` | **Required**. Foo
-`numberRoutes`|`integer` | **Required**. Foo
-`timestamp`|`time` | **Required**. Foo
+`maxTotWalkDist`|`string` | no_restriction
+`timeDirection`|`string` |  backward or forward
+`numberRoutes`|`integer` | Maximum number of routes. Default 5, range??
+`timestamp`|`time` | Departure time
 `start[x]`|`integer` | Coordinate
 `start[y]`|`integer` | Coordinate
 `end[x]`|`integer` | Coordinate
 `end[y]`|`integer` | Coordinate
-`via`|`time` | **Required**. Foo
+`via`|`integer` | Coordinate
 `excludedLines`|`time` | **Required**. Foo
 `includedLines`|`time` | **Required**. Foo
 `token`|`string` | **Required**. Foo
