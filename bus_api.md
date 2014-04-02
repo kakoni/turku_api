@@ -3,9 +3,7 @@ Turku Bus API
 
 (Unofficial) guide to Turku BUS API
 
-# Comments
-
-## ROUTING
+## Get routes
 
     GET /getroute.php
     
@@ -1149,12 +1147,20 @@ List of available lines;Askainen, Granvik, Helsinki, Hirvikoski, Houtskari, Huit
     GET /geocode.php
 
 ### Response
-
-<%= headers 200 %>
-<%= json :gist_comment %>
-
-
-    application/vnd.github.VERSION.raw+json
-    application/vnd.github.VERSION.text+json
-    application/vnd.github.VERSION.html+json
-    application/vnd.github.VERSION.full+json
+```json
+{
+  "key": "Varusmestarintie, Turku",
+  "data": {
+    "locations": [
+      {
+        "category": "street",
+        "x":"3240138.000000",
+        "y":"6718301.500000",
+        "name":"Varusmestarintie",
+        "city":"Turku"
+      }
+    ]
+  },
+  "status": 0
+}
+```
