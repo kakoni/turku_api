@@ -12,21 +12,21 @@ Turku Bus API
 
 Name | Type | Description 
 -----|------|--------------
-`changeMargin`|`integer` | The minimum number of minutes between changes. Default 3, range 0-10.
-`walkSpeed`|`integer` | Walking speed, Optional, default 70 m/min, range 1-500.
-`maxTotWalkDist`|`string` | Maximum walking distance. no_restriction or range 500-10000.
-`timeDirection`|`string` |  backward or forward
-`numberRoutes`|`integer` | Maximum number of routes. Default 5.
-`routingMethod`|`integer` | Routing method. default, minchanges, fastest, minwalk
-`timestamp`|`time` | Departure time
-`start[x]`|`integer` | Coordinate
-`start[y]`|`integer` | Coordinate
-`end[x]`|`integer` | Coordinate
-`end[y]`|`integer` | Coordinate
-`via`|`integer` | Coordinate
-`excludedLines`|`string` | Lines names to be excluded, see lines
-`includedLines`|`string` | Lines names to be included, see lines
-`token`|`string` | **Required**. API Token
+`request[changeMargin]`|`integer` | The minimum number of minutes between changes. Default 3, range 0-10.
+`request[walkSpeed]`|`integer` | Walking speed, Optional, default 70 m/min, range 1-500.
+`request[maxTotWalkDist]`|`string` | Maximum walking distance. no_restriction or range 500-10000.
+`request[timeDirection]`|`string` |  backward or forward
+`request[numberRoutes]`|`integer` | Maximum number of routes. Default 5.
+`request[routingMethod]`|`integer` | Routing method. default, minchanges, fastest, minwalk
+`request[timestamp]`|`time` | Departure time
+`request[start[x]]`|`integer` | Coordinate
+`request[start[y]]`|`integer` | Coordinate
+`request[end[x]]`|`integer` | Coordinate
+`request[end[y]]`|`integer` | Coordinate
+`request[via]`|`integer` | Coordinate
+`request[excludedLines]`|`string` | Lines names to be excluded, see lines
+`request[includedLines]`|`string` | Lines names to be included, see lines
+`request[token]`|`string` | **Required**. API Token
 
 ### Response
 ```xml
@@ -58,7 +58,7 @@ Name | Type | Description
                         <DEPARTURE date="20140402" time="1153"/>
                 </POINT>
         </ROUTE>
-</MTRXML>% 
+</MTRXML>
 
 ```
 
