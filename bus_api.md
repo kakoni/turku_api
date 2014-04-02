@@ -19,10 +19,10 @@ Name | Type | Description
 `request[numberRoutes]`|`integer` | Maximum number of routes. Default 5.
 `request[routingMethod]`|`integer` | Routing method. default, minchanges, fastest, minwalk
 `request[timestamp]`|`time` | Departure time
-`request[start][x]`|`float` | Coordinate
-`request[start][y]`|`float` | Coordinate
-`request[end][x]`|`float` | Coordinate
-`request[end][y]`|`float` | Coordinate
+`request[start][x]`|`float` | Start point. KKJ Zone 3, X-Coordinate
+`request[start][y]`|`float` | Start point. KKJ Zone 3, Y-Coordinate
+`request[end][x]`|`float` | End point. KKJ Zone 3, X-Coordinate
+`request[end][y]`|`float` | End point. KKJ Zone 3, Y-Coordinate
 `request[via]`|`float` | Coordinate
 `request[excludedLines]`|`string` | Lines names to be excluded, see lines
 `request[includedLines]`|`string` | Lines names to be included, see lines
