@@ -14,9 +14,9 @@ Name | Type | Description
 -----|------|--------------
 `changeMargin`|`integer` | The minimum number of minutes between changes. Default 3, range 0-10.
 `walkSpeed`|`integer` | Walking speed, Optional, default 70 m/min, range 1-500.
-`maxTotWalkDist`|`string` | no_restriction or r ange 500-10000.
+`maxTotWalkDist`|`string` | Maximum walking distance. no_restriction or range 500-10000.
 `timeDirection`|`string` |  backward or forward
-`numberRoutes`|`integer` | Maximum number of routes. Default 5, range??
+`numberRoutes`|`integer` | Maximum number of routes. Default 5.
 `routingMethod`|`integer` | Routing method. default, minchanges, fastest, minwalk
 `timestamp`|`time` | Departure time
 `start[x]`|`integer` | Coordinate
