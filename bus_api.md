@@ -5,7 +5,7 @@ Turku Bus API
 
 ## Get routes
 
-    GET /getroute.php
+    GET http://reittiopas.turku.fi/getroute.php
     
     
 ### Parameters
@@ -68,7 +68,15 @@ List of available lines;Askainen, Granvik, Helsinki, Hirvikoski, Houtskari, Huit
 
 ## Geocoding
 
-    GET /geocode.php
+    GET http://reittiopas.turku.fi/geocode.php
+    
+### Parameters
+Name | Type | Description 
+-----|------|--------------
+`key`|`string` | Search term
+`maxresults`|`integer` | Maximum number of results
+`language`|`string` | Language of the matched name of the location. Currently only 'fi' supported?
+`request[token]`|`string` | **Required**. API Token
 
 ### Response
 ```json
