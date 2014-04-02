@@ -16,16 +16,16 @@ title: BUS API
 
 Name | Type | Description 
 -----|------|--------------
-`changeMargin`|`integer` | **Required**. Foo
-`walkSpeed`|`integer` | **Required**. Foo
+`changeMargin`|`integer` | The minimum number of minutes between changes. Default 3, range 0-10.
+`walkSpeed`|`integer` | Walking speed, Optional, default 70 m/min, range 1-500.
 `maxTotWalkDist`|`string` | **Required**. Foo
 `timeDirection`|`string` | **Required**. Foo
 `numberRoutes`|`integer` | **Required**. Foo
 `timestamp`|`time` | **Required**. Foo
-`start[x]`|`integer` | **Required**. Foo
-`start[y]`|`integer` | **Required**. Foo
-`end[x]`|`integer` | **Required**. Foo
-`end[y]`|`integer` | **Required**. Foo
+`start[x]`|`integer` | Coordinate
+`start[y]`|`integer` | Coordinate
+`end[x]`|`integer` | Coordinate
+`end[y]`|`integer` | Coordinate
 `via`|`time` | **Required**. Foo
 `excludedLines`|`time` | **Required**. Foo
 `includedLines`|`time` | **Required**. Foo
