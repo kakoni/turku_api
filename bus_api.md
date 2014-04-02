@@ -31,139 +31,34 @@ Name | Type | Description
 ### Response
 ```xml
 
-
 <MTRXML version="1.0">
-	<ROUTE from="start" to="end">
-		<LENGTH time="0.024" dist="1.689"/>
-		<POINT uid="start" x="3240112.5" y="6713845.5">
-			<ARRIVAL date="20140402" time="1152"/>
-			<DEPARTURE date="20140402" time="1153"/>
-		</POINT>
-		<WALK>
-			<LENGTH time="0.024" dist="1.689"/>
-			<POINT uid="start" x="3240112.5" y="6713845.5">
-				<ARRIVAL date="20140402" time="1152"/>
-				<DEPARTURE date="20140402" time="1153"/>
-			</POINT>
-			<SHAPE time="0" dist="1.689">
+        <ROUTE from="start" to="end">
+                <LENGTH time="0.024" dist="1.689"/>
+                <POINT uid="start" x="3240112.5" y="6713845.5">
+                        <ARRIVAL date="20140402" time="1152"/>
+                        <DEPARTURE date="20140402" time="1153"/>
+                </POINT>
+                <WALK>
+                        <LENGTH time="0.024" dist="1.689"/>
+                        <POINT uid="start" x="3240112.5" y="6713845.5">
+                                <ARRIVAL date="20140402" time="1152"/>
+                                <DEPARTURE date="20140402" time="1153"/>
+                        </POINT>
+                        <SHAPE time="0" dist="1.689">
 3240111.8 6713845.1 `` 0
 3240111.8 6713845.1 `` 0
-			</SHAPE>
-			<POINT uid="end" x="3240112.5" y="6713845.5">
-				<ARRIVAL date="20140402" time="1152"/>
-				<DEPARTURE date="20140402" time="1153"/>
-			</POINT>
-		</WALK>
-		<POINT uid="end" x="3240112.5" y="6713845.5">
-			<ARRIVAL date="20140402" time="1152"/>
-			<DEPARTURE date="20140402" time="1153"/>
-		</POINT>
-	</ROUTE>
-	<ROUTE from="start" to="end">
-		<LENGTH time="0.024" dist="1.689"/>
-		<POINT uid="start" x="3240112.5" y="6713845.5">
-			<ARRIVAL date="20140402" time="1153"/>
-			<DEPARTURE date="20140402" time="1154"/>
-		</POINT>
-		<WALK>
-			<LENGTH time="0.024" dist="1.689"/>
-			<POINT uid="start" x="3240112.5" y="6713845.5">
-				<ARRIVAL date="20140402" time="1153"/>
-				<DEPARTURE date="20140402" time="1154"/>
-			</POINT>
-			<SHAPE time="0" dist="1.689">
-3240111.8 6713845.1 `` 0
-3240111.8 6713845.1 `` 0
-			</SHAPE>
-			<POINT uid="end" x="3240112.5" y="6713845.5">
-				<ARRIVAL date="20140402" time="1153"/>
-				<DEPARTURE date="20140402" time="1154"/>
-			</POINT>
-		</WALK>
-		<POINT uid="end" x="3240112.5" y="6713845.5">
-			<ARRIVAL date="20140402" time="1153"/>
-			<DEPARTURE date="20140402" time="1154"/>
-		</POINT>
-	</ROUTE>
-	<ROUTE from="start" to="end">
-		<LENGTH time="0.024" dist="1.689"/>
-		<POINT uid="start" x="3240112.5" y="6713845.5">
-			<ARRIVAL date="20140402" time="1154"/>
-			<DEPARTURE date="20140402" time="1155"/>
-		</POINT>
-		<WALK>
-			<LENGTH time="0.024" dist="1.689"/>
-			<POINT uid="start" x="3240112.5" y="6713845.5">
-				<ARRIVAL date="20140402" time="1154"/>
-				<DEPARTURE date="20140402" time="1155"/>
-			</POINT>
-			<SHAPE time="0" dist="1.689">
-3240111.8 6713845.1 `` 0
-3240111.8 6713845.1 `` 0
-			</SHAPE>
-			<POINT uid="end" x="3240112.5" y="6713845.5">
-				<ARRIVAL date="20140402" time="1154"/>
-				<DEPARTURE date="20140402" time="1155"/>
-			</POINT>
-		</WALK>
-		<POINT uid="end" x="3240112.5" y="6713845.5">
-			<ARRIVAL date="20140402" time="1154"/>
-			<DEPARTURE date="20140402" time="1155"/>
-		</POINT>
-	</ROUTE>
-	<ROUTE from="start" to="end">
-		<LENGTH time="0.024" dist="1.689"/>
-		<POINT uid="start" x="3240112.5" y="6713845.5">
-			<ARRIVAL date="20140402" time="1155"/>
-			<DEPARTURE date="20140402" time="1156"/>
-		</POINT>
-		<WALK>
-			<LENGTH time="0.024" dist="1.689"/>
-			<POINT uid="start" x="3240112.5" y="6713845.5">
-				<ARRIVAL date="20140402" time="1155"/>
-				<DEPARTURE date="20140402" time="1156"/>
-			</POINT>
-			<SHAPE time="0" dist="1.689">
-3240111.8 6713845.1 `` 0
-3240111.8 6713845.1 `` 0
-			</SHAPE>
-			<POINT uid="end" x="3240112.5" y="6713845.5">
-				<ARRIVAL date="20140402" time="1155"/>
-				<DEPARTURE date="20140402" time="1156"/>
-			</POINT>
-		</WALK>
-		<POINT uid="end" x="3240112.5" y="6713845.5">
-			<ARRIVAL date="20140402" time="1155"/>
-			<DEPARTURE date="20140402" time="1156"/>
-		</POINT>
-	</ROUTE>
-	<ROUTE from="start" to="end">
-		<LENGTH time="0.024" dist="1.689"/>
-		<POINT uid="start" x="3240112.5" y="6713845.5">
-			<ARRIVAL date="20140402" time="1156"/>
-			<DEPARTURE date="20140402" time="1157"/>
-		</POINT>
-		<WALK>
-			<LENGTH time="0.024" dist="1.689"/>
-			<POINT uid="start" x="3240112.5" y="6713845.5">
-				<ARRIVAL date="20140402" time="1156"/>
-				<DEPARTURE date="20140402" time="1157"/>
-			</POINT>
-			<SHAPE time="0" dist="1.689">
-3240111.8 6713845.1 `` 0
-3240111.8 6713845.1 `` 0
-			</SHAPE>
-			<POINT uid="end" x="3240112.5" y="6713845.5">
-				<ARRIVAL date="20140402" time="1156"/>
-				<DEPARTURE date="20140402" time="1157"/>
-			</POINT>
-		</WALK>
-		<POINT uid="end" x="3240112.5" y="6713845.5">
-			<ARRIVAL date="20140402" time="1156"/>
-			<DEPARTURE date="20140402" time="1157"/>
-		</POINT>
-	</ROUTE>
-</MTRXML>
+                        </SHAPE>
+                        <POINT uid="end" x="3240112.5" y="6713845.5">
+                                <ARRIVAL date="20140402" time="1152"/>
+                                <DEPARTURE date="20140402" time="1153"/>
+                        </POINT>
+                </WALK>
+                <POINT uid="end" x="3240112.5" y="6713845.5">
+                        <ARRIVAL date="20140402" time="1152"/>
+                        <DEPARTURE date="20140402" time="1153"/>
+                </POINT>
+        </ROUTE>
+</MTRXML>% 
 
 ```
 
