@@ -23,7 +23,8 @@ Name | Type | Description
 `request[start][y]`|`float` | Start point. KKJ Zone 3, Y-Coordinate
 `request[end][x]`|`float` | End point. KKJ Zone 3, X-Coordinate
 `request[end][y]`|`float` | End point. KKJ Zone 3, Y-Coordinate
-`request[via]`|`float` | Coordinate
+`request[via][x]`|`float` | Via point. KKJ Zone 3, X-Coordinate
+`request[via][y]`|`float` | Via point. KKJ Zone 3, Y-Coordinate
 `request[excludedLines]`|`string` | Lines names to be excluded, see lines
 `request[includedLines]`|`string` | Lines names to be included, see lines
 `request[token]`|`string` | **Required**. API Token
