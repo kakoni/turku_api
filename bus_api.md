@@ -19,11 +19,11 @@ Name | Type | Description
 `request[numberRoutes]`|`integer` | Maximum number of routes. Default 5.
 `request[routingMethod]`|`integer` | Routing method. default, minchanges, fastest, minwalk
 `request[timestamp]`|`time` | Departure time
-`request[start[x]]`|`integer` | Coordinate
-`request[start[y]]`|`integer` | Coordinate
-`request[end[x]]`|`integer` | Coordinate
-`request[end[y]]`|`integer` | Coordinate
-`request[via]`|`integer` | Coordinate
+`request[start][x]`|`float` | Coordinate
+`request[start][y]`|`float` | Coordinate
+`request[end][x]`|`float` | Coordinate
+`request[end][y]`|`float` | Coordinate
+`request[via]`|`float` | Coordinate
 `request[excludedLines]`|`string` | Lines names to be excluded, see lines
 `request[includedLines]`|`string` | Lines names to be included, see lines
 `request[token]`|`string` | **Required**. API Token
