@@ -1,11 +1,9 @@
----
-title: BUS API
----
+Turku Bus API
+======
+
+(Unofficial) guide to Turku BUS API
 
 # Comments
-
-* TOC
-{:toc}
 
 ## ROUTING
 
